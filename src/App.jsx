@@ -91,7 +91,7 @@ function App() {
           <div className="main-content">
             <div className="left-side">
               <img 
-                src="/chiyo-character.png" 
+                src={`${import.meta.env.BASE_URL}chiyo-character.png`}
                 alt="Anime character" 
                 className="character-image" 
               />
